@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+	-webkit-font-smoothing: antialiased;
+    background: #0A183D
+}
+
+.navbar ul{
+    list-style: none;
+    background:#08192D;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li{
+    display:inline-block;
+}
+
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 44px 10px;
+    /*text-transform: uppercase;*/
+    /* font-weight: bold; */
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color: crimson;
+}
+
+.img-logo{
+   display: inline-block;  
+}
+
+span{
+    color: #FC0254;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 70px;
+    color: #ffffff;
+	margin-bottom: 25px;
+	line-height: 0.9;
+	position: relative;
+	top: 50px;
+	padding-left: 80px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    color: #ffffff;
+    padding: 40px 80px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    line-height: 1.8;
+    
+}
+
+.body-image{
+position: absolute;
+bottom: 60px;
+right: 100px;
+}
+
+.site-btn {
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 195px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #fc0254;
+    color: #fff;
+    line-height: normal;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 67px;
+    margin-right: -57px;
+}
+
+.site-btn:hover {
+	color: #fff;
+}
+
+.site-btn.sb-c2 {
+    background: #383b70;
+    margin-right: 10px;
+}
+
+
+
